@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiButton-contained {
+  background-color: #1ed760 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login {
+  height: 100vh;
+}
+
+.login button {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dashboard {
+  height: 100vh;
+}
+
+.dashboard .MuiTextField-root {
+  width: 100%;
+}
+
+.track {
+  cursor: pointer;
+}
